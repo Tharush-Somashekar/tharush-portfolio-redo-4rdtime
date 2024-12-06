@@ -17,8 +17,8 @@ export default function Herosection () {
                 </div>
                 <button className="btn btn-primary">Get in touch</button> {''}<button className="btn btn-primary">Get my resume</button>    
             </div>
-            <div>
-                <img src='../../../public/img/hero_img.png' alt='Tharush Somasherkar' />
+            <div className="hero--section--btn">
+                <img src='../../../public/img/Tharush_logo.png' alt='Tharush pic' />
             </div>
         </section>
     )
