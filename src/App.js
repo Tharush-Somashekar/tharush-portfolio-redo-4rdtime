@@ -9,6 +9,12 @@ function App() {
     <div className="App">
         <Navbar />
         <Home />
+        <MySkills />
+        <AboutMe />
+        <MyPortfolio />
+        <Testimonial />
+        <ContactMe />
+        <Footer />
     </div>
   );
 }
