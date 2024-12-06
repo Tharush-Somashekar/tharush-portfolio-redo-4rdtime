@@ -1,29 +1,25 @@
-export default function Herosection () {
-    return(
-        <section id="herosection" className="hero--section">
-            <div className="hero-section-content-container">
-                <div className="  .hero--section--content">
-                    <h1>
-                        <p assName="section--title">Hey! I am Tharush Somashekar</p>
-                        <span className="hero--section-title--color">User Experience Designer</span>{" "}
-                    <br />
-                    
-                    </h1>
-                    <p className="hero--section-description">
-                        Change this in the Herosection.jsx file
-                    <br />
-                    this too dude
-                    </p>
-                </div>
-                <div id="herosectionbtn" className="hero--section--btn-containet">
-                <button className="btn btn-primary">Get in touch</button> {'   '}{'   '}{'   '}
-                <button className="btn btn-primary">Get my resume</button>
-                </div>  
-            </div>
-            <div className="hero--section--img">
-                <img src='../../../public/img/hero_img.png' alt='Tharush' />
-            </div>
-        </section>
-    )
-    
-}
+export default function HeroSection() {
+    return (
+      <section id="heroSection" className="hero--section">
+        <div className="hero--section--content--box">
+          <div className="hero--section--content">
+            <p className="section--title">Hey, I'm Tharush</p>
+            <h1 className="hero--section--title">
+              <span className="hero--section-title--color">User experience</span>{" "}
+              <br />
+              designer
+            </h1>
+            <p className="hero--section-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              <br /> Dolorum, quas. Amet soluta assumenda cum?
+            </p>
+          </div>
+          <button className="btn btn-primary">Get In Touch</button>{' '}
+          <button className="btn btn-primary">Get In Touch</button>
+        </div>
+        <div className="hero--section--img">
+          <img src="./img/hero_img.png" alt="Hero Section" />
+        </div>
+      </section>
+    );
+  }
