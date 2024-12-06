@@ -14,7 +14,11 @@ export default function Herosection () {
                     <br />
                     this too dude
                     </p>
-                </div>    
+                </div>
+                <button className="btn btn-primary">Get in touch</button> {''}<button className="btn btn-primary">Get my resume</button>    
+            </div>
+            <div>
+                <img src='../../../public/img/hero_img.png' alt='Tharush Somasherkar' />
             </div>
         </section>
     )
