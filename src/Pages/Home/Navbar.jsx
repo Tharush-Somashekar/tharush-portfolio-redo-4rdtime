@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+       <h3>Tharush Somashekar</h3>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -69,10 +69,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              to="AboutMe"
               className="navbar--content"
             >
-              Portfolio
+              About Me
             </Link>
           </li>
           <li>
@@ -83,10 +83,24 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
+              to="testimonial"
               className="navbar--content"
             >
-              About Me
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="MyPortfolio"
+              className="navbar--content"
+            >
+              Portfolio
             </Link>
           </li>
           <li>
