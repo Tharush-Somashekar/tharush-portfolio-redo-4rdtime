@@ -198,10 +198,10 @@ body {
   .hero--section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 133.333px 85.333px 133.333px;
+    padding: 100px 80px 100px;
     align-items: center;
     justify-content: space-between;
-    gap: 32px;
+    gap: 100px;
     background-color: var(--bg-shade);
   }
   .hero--section--content-box {
@@ -214,12 +214,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 21px;
+    gap: 4px;
   }
   .hero--section--btn-containet {
     padding-top: 34px;
     gap: 100px;
     align-content: center;
+    align-content: center;
+    align-items: center;
   }
 
   .hero--section--content--box > button {
@@ -239,8 +241,9 @@ body {
     color: var(--darkblue);
     font-size: 24px;
     font-weight: 400;
-    line-height: 36px;
-    padding-top: 26px;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-right: 30px;
   }
   .hero--section--img {
     display: flex;

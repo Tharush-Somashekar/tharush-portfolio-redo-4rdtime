@@ -3,19 +3,20 @@ export default function HeroSection() {
       <section id="heroSection" className="hero--section">
         <div className="hero--section--content--box">
           <div className="hero--section--content">
-            <p className="section--title">Hey, I'm Tharush</p>
+            <p className="section--title">Hello!</p>
             <h1 className="hero--section--title">
-              <span className="hero--section-title--color">User experience</span>{" "}
+              <span className="hero--section-title--color">I am</span>{" "}
               <br />
-              designer
+              Tharush Somashekar
             </h1>
             <p className="hero--section-description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              <br /> Dolorum, quas. Amet soluta assumenda cum?
+              A passionate and curious user experience researcher and designer with empaphasis on research, simplicity and empathy.
             </p>
           </div>
+          <div className="hero--section--btn-containet">
           <button className="btn btn-primary">Get In Touch</button>{' '}
-          <button className="btn btn-primary">Get In Touch</button>
+          <button className="btn btn-primary">Download Resume</button>
+          </div>
         </div>
         <div className="hero--section--img">
           <img src="./img/hero_img.png" alt="Hero Section" />
