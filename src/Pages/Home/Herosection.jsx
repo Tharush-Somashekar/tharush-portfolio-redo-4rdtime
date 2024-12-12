@@ -14,7 +14,9 @@ export default function HeroSection() {
             </p>
           </div>
           <div className="btn-primary-div">
-          <button className="btn btn-primary">View my resume</button>
+          <a href=''>
+            <button className="btn btn-primary">View my resume</button>
+          </a>  
           </div>
         </div>
         <div className="hero--section--img">
