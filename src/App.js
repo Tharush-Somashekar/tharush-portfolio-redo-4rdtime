@@ -8,6 +8,7 @@ import AboutMe from './Pages/Home/Aboutme.jsx';
 import MyPortfolio from './Pages/Home/Myportfolio.jsx';
 import ContactMe from './Pages/Home/Contactme.jsx';
 import Footer from './Pages/Home/Footer.jsx'
+import Allskills from './Pages/Home/Allskills.jsx';
 
 function App() {
   return (
