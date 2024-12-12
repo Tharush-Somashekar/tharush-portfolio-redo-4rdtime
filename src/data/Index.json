@@ -3,13 +3,13 @@
       {
         "id": "1",
         "src": "./img/product-chain-1.png",
-        "title": "Front-End",
+        "title": "User Research",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       },
       {
         "id": "2",
         "src": "./img/tag-1.png",
-        "title": "Back-End",
+        "title": "Branding",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       },
       {
@@ -21,7 +21,7 @@
       {
         "id": "4",
         "src": "./img/feather-pen-1.png",
-        "title": "Webflow Development",
+        "title": "Front-end Development",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       }
     ],
