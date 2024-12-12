@@ -19,8 +19,7 @@ p {
 :root {
   --primary: #353535;
   --heading-color: #282938;
-  --bg-shade: #f5fcff;
-  --github: #e62872;
+  --bg-shade: #ffffff;;
   --darkblue: #808080;
   --black: #000000;
   --white: #ffffff;
@@ -66,19 +65,24 @@ p {
   background-color: var(--white);
 }
 .btn-github {
-  color: var(--white);
-  background-color: var(--github);
-  border: var(--github);
+  color: var(--primary);
+  background-color: var(--white);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
+  border: .5px solid var(--darkblue);
   gap: 16px;
 }
+.Cv-button {
+content: var(--white);
+}
 .btn-github:hover {
-  color: var(--github);
-  background-color: var(--white);
+  color:#ffffff;
+  background-color:#272727;
+  box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.2);
+  border: 0px solid var(--black);
+  transition: ease;
 }
 /* Global CSS Ends */
 /* Main Headings */
@@ -273,15 +277,20 @@ h2 {
   align-items: flex-start;
   gap: 32px;
   flex: 1 0 0;
-  border-radius: 10.6px;
-  background: var(--bg-shade);
+  border-radius: 0px;
+  background:var(--white) ;
   min-height: 250px;
+  border-color: #000000;
+  border-width: 4px;
 }
 .skills--section--card:hover {
-  border-bottom: 4px solid var(--primary);
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  transition:ease-in-out;
 }
 .skills--section--card:hover .skills--section--description {
-  color: var(--darkblue);
+  color: var(--black);
 }
 .skills--section--img {
   display: flex;
@@ -289,9 +298,9 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 13.3px;
-  border-radius: 10.6px;
+  border-radius: 0px;
   background: #fff;
-  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.09);
 }
 .skills--section--card--content {
   display: flex;
@@ -307,7 +316,7 @@ h2 {
   line-height: 45px;
 }
 .skills--section--description {
-  color: var(--black);
+  color:#636363;
   font-size: 21.3px;
   font-style: normal;
   font-weight: 400;
@@ -370,10 +379,20 @@ h2 {
   gap: 32px;
   flex: 1 0 0;
   background: #fff;
-  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.05);
   cursor: pointer;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-radius: 0px;
+}
+.portfolio--section--card:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+  background: #ffffff;
+  box-shadow: 0 0 34px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition:ease-in-out;
 }
 .portfolio--section--card--content {
   display: flex;
@@ -390,7 +409,7 @@ h2 {
   text-decoration: none;
   display: flex;
   gap: 16px;
-  border-bottom: 1.33px solid var(--primary);
+  border-bottom: 1.33px solid var(--darkblue);
   padding-bottom: 10.6px;
   font-weight: 600;
 }
