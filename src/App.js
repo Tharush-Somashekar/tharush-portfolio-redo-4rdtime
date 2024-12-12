@@ -16,6 +16,7 @@ function App() {
         <Navbar />
         <Home />
         <AboutMe/>
+        <MySkills/>
     </div>
   );
 }

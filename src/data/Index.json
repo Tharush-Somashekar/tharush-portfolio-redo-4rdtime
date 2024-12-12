@@ -7,15 +7,15 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       },
       {
-        "id": "2",
-        "src": "./img/tag-1.png",
-        "title": "Branding",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
         "id": "3",
         "src": "./img/feather-pen-2.png",
         "title": "UI & UX Design",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      },
+      {
+        "id": "2",
+        "src": "./img/tag-1.png",
+        "title": "Branding",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       },
       {
@@ -31,21 +31,21 @@
         "src": "./img/placeholder-image.png",
         "title": "Ahuse",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "link": "View Project"
       },
       {
         "id": "2",
         "src": "./img/placeholder-image-1.png",
         "title": "App Dashboard",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "link": "View Project"
       },
       {
         "id": "3",
         "src": "./img/placeholder-image-2.png",
         "title": "Easy Rentn",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "link": "View Project"
       }
     ],
     "testimonial": [
