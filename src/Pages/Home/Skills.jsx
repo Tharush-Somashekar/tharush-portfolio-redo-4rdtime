@@ -1,8 +1,8 @@
 import data from "../../data/index.json";
 
-export default function MySkills() {
+export default function Skills() {
   return (
-    <section className="skills--section" id="mySkills">
+    <section className="skills--section" id="Skills">
       <div className="portfolio--container">
         <p className="section--title"></p>
         <h2 className="skills--section--heading">My Services</h2>
