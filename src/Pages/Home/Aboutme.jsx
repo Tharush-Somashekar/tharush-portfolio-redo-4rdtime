@@ -6,18 +6,13 @@ export default function AboutMe() {
         </div>
         <div className="hero--section--content--box about--section--box">
           <div className="hero--section--content">
-            <p className="section--title">About</p>
+            <p className="section--title"></p>
             <h1 className="skills-section--heading">About Me</h1>
             <p className="hero--section-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-              recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-              tempora numquam sint odit optio.
+              Hello, I am Tharush
             </p>
             <p className="hero--section-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-              recusandae?
+             A passionate and curious user experience researcher and designer. With a strong emphasis on research, simplicity, and empathy, I strive to create intuitive and engaging user experiences. My journey is driven by a commitment to understanding user needs and translating them into seamless digital interactions. Explore my projects, services, and testimonials to see how I can help bring your vision to life.
             </p>
           </div>
         </div>
