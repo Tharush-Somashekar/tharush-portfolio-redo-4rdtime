@@ -95,7 +95,7 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-700}
+              offset={-70}
               duration={500}
               to="testimonial"
               className="navbar--content"
