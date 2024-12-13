@@ -29,23 +29,22 @@
       {
         "id": "1",
         "src": "./img/placeholder-image-1.png",
-        "title": "App Dashboard",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "HMI - The ATM",
+        "description": "A data driven project that looks into the problems of ATM systems in India using data collected and analysed from users",
         "link": "View Project"
       },
       {
         "id": "2",
         "src": "./img/placeholder-image.png",
-        "title": "Ahuse",
-
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "SURGE",
+        "description": "A sports and fitness brand, branding activity created for a client as a part of semester 6 project for freelancing.",
         "link": "View Project"
       },
       {
         "id": "3",
         "src": "./img/placeholder-image-2.png",
-        "title": "Easy Rentn",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "MOODSYNC",
+        "description": "A mood tracking application that aims to help users with mental issues by tracking their mood through their day.",
         "link": "View Project"
       }
     ],
