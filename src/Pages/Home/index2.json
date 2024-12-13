@@ -1,0 +1,77 @@
+{
+    "skills": [
+      {
+        "id": "1",
+        "src": "./img/product-chain-1.png",
+        "title": "User Research",
+        "description": "Unlock insights with comprehensive user research, ensuring your designs are grounded in real user needs and behaviors."
+      },
+      {
+        "id": "3",
+        "src": "./img/feather-pen-2.png",
+        "title": "UI & UX Design",
+        "description": "Specialized in bringing your ideas into intuitive, seemless, engaging and captivating experiences for you users."
+      },
+      {
+        "id": "2",
+        "src": "./img/tag-1.png",
+        "title": "Branding",
+        "description": "Build a strong, memorable brand identity that stands out. From logos to complete brand guideline"
+      },
+      {
+        "id": "4",
+        "src": "./img/feather-pen-1.png",
+        "title": "Front-end",
+        "description": "We bring your website to life and make it visually appealing, fast, responsive, and user friendly"
+      }
+    ],
+    "portfolio": [
+      {
+        "id": "1",
+        "src": "./img/placeholder-image-1.png",
+        "title": "HMI - The ATM",
+        "description": "A data driven project that looks into the problems of ATM systems in India using data collected and analysed from users",
+        "link": "View Project"
+      },
+      {
+        "id": "2",
+        "src": "./img/placeholder-image.png",
+        "title": "SURGE",
+        "description": "A sports and fitness brand, branding activity created for a client as a part of semester 6 project for freelancing.",
+        "link": "View Project"
+      },
+      {
+        "id": "3",
+        "src": "./img/placeholder-image-2.png",
+        "title": "MOODSYNC",
+        "description": "A mood tracking application that aims to help users with mental issues by tracking their mood through their day.",
+        "link": "View Project"
+      }
+    ],
+    "testimonial": [
+      {
+        "id": "1",
+        "count": "5",
+        "src": "./img/avatar-image.png",
+        "description": "Working with Tharush was a game-changer. His designs are intuitive and user-friendly, making our project a huge success.",
+        "author_name": "Dianne Russel",
+        "author_designation": "Surge"
+      },
+      {
+        "id": "2",
+        "count": "5",
+        "src": "./img/avatar-image-1.png",
+        "description": "Working with Tharush was a game-changer. His designs are intuitive and user-friendly, making our project a huge success.",
+        "author_name": "Kristin Watson",
+        "author_designation": "bankaidesigns"
+      },
+      {
+        "id": "3",
+        "count": "5",
+        "src": "./img/avatar-image-2.png",
+        "description":"Working with Tharush was a game-changer. His designs are intuitive and user-friendly, making our project a huge success.",
+        "author_name": "Kathryn Murphy",
+        "author_designation": "Vinteract"
+      }
+    ]
+  }
