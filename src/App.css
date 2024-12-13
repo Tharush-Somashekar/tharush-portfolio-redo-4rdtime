@@ -85,6 +85,16 @@ content: var(--white);
   transition: ease;
 }
 /* Global CSS Ends */
+
+
+
+
+
+
+
+
+
+/* Global CSS for headings */
 /* Main Headings */
 
 /* Heading 1 */
@@ -153,6 +163,21 @@ h2 {
 }
 /* Section Titles Ends */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Navbar Style Start */
 .navbar {
   display: flex;
@@ -189,6 +214,23 @@ h2 {
   color: var(--primary);
 }
 /* Navbar Styler Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Hero Section Style */
 .hero--section {
@@ -247,6 +289,20 @@ h2 {
 
 }
 /* Hero Section Style Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Skills Section Style */
 .skills--section {
@@ -324,6 +380,15 @@ h2 {
 }
 /* Skills Style Ends */
 
+
+
+
+
+
+
+
+
+
 /* About Us */
 .about--section {
   display: grid;
@@ -337,6 +402,19 @@ h2 {
   height: 100%;
 }
 /* About Us Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* My Portfolio Starts */
 .portfolio--section {
@@ -418,7 +496,15 @@ h2 {
 }
 /* Portfolio Ends */
 
-/* Testimonial */
+
+
+
+
+
+
+
+
+/* Testimonial starts here */
 .testimonial--section {
   display: flex;
   padding: 112px 84.3px;
@@ -438,7 +524,7 @@ h2 {
   gap: 42.6px;
   flex: 1 0 0;
   border-radius: 8px;
-  border: 1.33px solid #006b6a;
+  border: 1.33px solid #4b4b4b;
 }
 .testimonial--section--card--reviews {
   display: flex;
@@ -461,6 +547,17 @@ h2 {
   line-height: 150%;
 }
 /* Testimonial Ends */
+
+
+
+
+
+
+
+
+
+
+/* Contact section starts here */
 .contact--section {
   display: flex;
   padding: 150px 85px;
@@ -532,6 +629,12 @@ input[type="checkbox"] {
 }
 /* Contact End */
 
+
+
+
+
+
+
 /* Footer Starts */
 
 .footer_logo {
@@ -578,9 +681,15 @@ input[type="checkbox"] {
 
 
 
+
+
+
+
+
+
 /* Responsive Screens */
 /* 3 sizes, 1800, 1600, 1200 */
-/* Responsive Screens */
+/* size and padding changes (major) */
 
 
 
